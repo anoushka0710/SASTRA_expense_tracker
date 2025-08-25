@@ -181,11 +181,33 @@ html, body {
 }
 .dashboard-button:hover { background-color: #7a3eb0; }
 
+/* .pie-section {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+/* Chatbot floating widget */
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 350px;
+  z-index: 2000;   /* stays above everything */
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Pie chart wrapper */
 .pie-section {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -201,5 +223,14 @@ html, body {
 
   .page-title {
     font-size: 26px;
+  }
+    .chatbot-container {
+    width: 90%;         /* make chatbot fit screen */
+    right: 5%;
+    bottom: 10px;       /* lift a little above the edge */
+  }
+
+  .pie-section {
+    margin-bottom: 220px;  /* leave space for chatbot */
   }
 }
