@@ -1,0 +1,90 @@
+html, body {
+  height: 100%;      
+  margin: 0;       
+  display: flex;     
+  justify-content: center;
+  align-items: center; 
+}
+
+
+.expense-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin-left:350px;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.expense-entry {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.add-more-btn, .done-btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 1;
+}
+
+.add-more-btn {
+  background-color: #b37ddb;
+}
+
+.add-more-btn:hover {
+  background-color: #45a049;
+}
+
+.done-btn {
+  background-color: #b37ddb;
+}
+
+.done-btn:hover {
+  background-color: #007bb5;
+}
+
+.Placeh{
+ background-color: #b37ddb;
+}

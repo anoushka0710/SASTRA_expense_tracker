@@ -1,0 +1,89 @@
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  padding-top: 70px;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, rgb(235, 234, 236), #9165c0);
+}
+
+.header {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #5a2d82;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px; 
+  box-sizing: border-box; 
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.Heading {
+  font-size: 1.5rem;
+  font-weight:700;
+  color:#f3f1f4;
+}
+
+/* ✅ Group Dashboard + Add Expense */
+.header-buttons {
+  display: flex;
+  gap: 15px;   /* space between buttons */
+}
+
+.header-btn {
+  padding: 10px 24px;  
+  background-color: #d6b6f5;
+  color: #5a2d82;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.header-btn:hover {
+  background-color: #b37ddb;
+  color: white;
+}
+
+.ab-btn {
+  margin-top: 30px;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #5a2d82;
+}
+
+.about {
+  min-height: 100vh;
+  padding: 50px;
+  background: white;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #5a2d82;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #333;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}

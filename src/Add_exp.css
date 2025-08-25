@@ -1,0 +1,55 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #f0f4f8, #ffffff);
+  margin: 0;
+  padding: 0;
+}
+
+/* Page Heading */
+.page-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #6a0dad; /* purple */
+}
+
+/* Card Container */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* Each Card */
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  height: 180px;
+  width: 180px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(to bottom, #fff, #f9f9ff);
+}
+
+/* Card Title */
+.card h2 {
+  color: #5a2d82;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
